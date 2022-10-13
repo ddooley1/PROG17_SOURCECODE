@@ -36,7 +36,7 @@ taxamount = subtotal * taxrate
 grandtotal = subtotal + taxamount
 
 # 6 - Display calculated total to user
-print("You bought {0} cups of coffee, for {1:.2f} each for a subtotal of ${2:.2f}".format(numofcups, price, subtotal))
+print("You bought {0} cup(s) of coffee, for {1:.2f} each for a subtotal of ${2:.2f}".format(numofcups, price, subtotal))
 print("Your tax amount is ${0:.2f} and your grand total is ${1:.2f}." .format(taxamount, grandtotal))
 
 # 7 - End program/thank you msg, recipt?
